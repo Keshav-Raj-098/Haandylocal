@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+
+.head{
+    padding:12px;
+    display: flex;
+    justify-content: space-between;
+}
+.head>span{
+    color:gold;
+    font-family: 'Merriweather', serif;
+    font-size:20px;
+    
+    
+}
+.two{
+    background-color:rgb(43, 41, 41);
+    margin:0px;
+   
+}
+.head>input{
+    width:215px;
+    background-color:#24272c ;
+    padding:4px;
+    box-shadow: 3px -1px 4px black;
+    outline: none;
+    color:white;
+}
+
+.line1{
+  
+    width:100vw;
+    background-color:#333333;
+    height:2px;
+   
+}
+
+.tail{
+    display:flex;
+    
+}
+
+.leeft{
+
+    width:13vw;
+    
+}
+.line2{
+    height:82vh;
+    background-color:#333333;
+    width:2px;
+   
+
+}
+
+.rightt{
+    height:78vh;
+    /* border:1px solid white; */
+    width:87vw;
+    padding:10px;
+    overflow-y:scroll;
+}
+
+.content{
+    height:80px;
+    background-color: #333333;
+    padding:0px 15px;
+    display: flex;
+    border-radius:20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:15px;
+    
+}
+.circle{
+    width:90px;
+    height:80px;
+    border-radius: 50%; 
+    border-right: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+.circle>img{
+    scale:2;
+}
+.dabba{
+
+    width:74vw;
+    height:38px;
+    padding:13px;
+    border: 1px solid #403c3c;
+    color:white;
+    position: relative;
+    left:51px;
+    border-left:none;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-bottom-right-radius:20px;
+    border-top-right-radius:20px;
+    position: relative;
+    left:-38px;
+}
+
+.dabba>:first-child{
+    height:35px;
+    width:23vw;
+    display: flex;
+    padding-left:35px;
+    padding-top:15px;
+}
+.dabba>:nth-child(2){
+    height:35px;
+    width:40vw;
+    padding-top:15px;   
+}
+.button{
+    background-color: aqua;
+    font-weight: 900;
+    color:black;
+    border-radius:15px;
+    position:relative;
+    right:7px;
+    padding:7px;
+    font-size:15px;
+}
+.button:hover{
+    cursor:pointer;
+    background-color: rgb(11, 230, 230);
+}
